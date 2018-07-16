@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container_get_detail"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10px"
+        android:src="@drawable/ic_git"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="10dp"
+        android:paddingVertical="5dp"
+        android:gravity="center_horizontal"
+        android:backgroundTint="@color/light_gray"
+        android:hint="@string/hint_username"
+        android:id="@+id/et_username"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round_get_details"
+        android:text="@string/submit"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginHorizontal="50dp"
+        android:paddingVertical="10dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/bt_get_detail_button"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/progress"/>
+</LinearLayout>

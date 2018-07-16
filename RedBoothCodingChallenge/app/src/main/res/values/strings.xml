@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TakeHomeTest</string>
+    <string name="submit">Submit</string>
+    <string name="hint_username">Github Username...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_internet">No Internet Connection!</string>
+    <string name="no_user">No Record Found!</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="no_value">---</string>
+</resources>
